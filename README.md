@@ -9,7 +9,7 @@ hhhhhhh
 ```
 install :
 lunarvim
-aicommit
+aicommit - maybe fork it to Kristoffer/Workstation
 aws-sso
 gh
 iterm2
