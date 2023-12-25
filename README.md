@@ -9,6 +9,7 @@ hhhhhhh
 ```
 install :
 lunarvim
+aicommit
 aws-sso
 gh
 iterm2
