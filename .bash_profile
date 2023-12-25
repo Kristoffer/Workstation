@@ -18,7 +18,7 @@ alias gc='git commit -m"auto-commit-$(randwd)"'
 alias gp='git push'
 alias gacp='ga && gc && gp'
 alias ghwatch='gh run watch $(gh run list -L 1 --json databaseId | jq ".[].databaseId")'
-alias gogit='gacp && ghwatch'
+alias gogit='gacp && sleep 1 && ghwatch'
 
 # Terminal settings
 eval "$(/opt/homebrew/bin/brew shellenv)"  # Set PATH, MANPATH, etc., for Homebrew.
