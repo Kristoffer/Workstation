@@ -19,7 +19,7 @@ copilot
 .ssh <- private
 codewhisperer
 shellcheck
-orb
+orb - new low(er) resource hungry docker/k8s orchestrator
 ```
 
 # git
