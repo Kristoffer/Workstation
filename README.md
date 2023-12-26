@@ -32,6 +32,7 @@ git config --global gpg.format ssh
 git config --global commit.gpgsign true
 git config --global user.signingKey /Users/bruce.willis/something/publickey.pub
 # get the path from the secretive app
+git config --global --add --bool push.autoSetupRemote true  # auto create remote branch
 ```
 
 add global ssh configuration to ~/.ssh/config:
