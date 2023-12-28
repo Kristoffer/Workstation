@@ -131,3 +131,4 @@ Install aicommits from Kristoffer/aicommit
 ---
 testing 123
 testing 123
+testing AI for PR
