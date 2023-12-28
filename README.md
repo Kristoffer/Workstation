@@ -126,3 +126,7 @@ Now, ```:LspInfo``` should show show both terraformls and tflint
 Install github copilot for cli
 ```gh extensions install github/gh-copilot```
 
+
+Install aicommits from Kristoffer/aicommit
+---
+
