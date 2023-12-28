@@ -1,6 +1,6 @@
 # Workstation setup
 This is for remembering how to set up my environment
-hhhhhhh
+
 ## Brew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
@@ -126,3 +126,7 @@ Now, ```:LspInfo``` should show show both terraformls and tflint
 Install github copilot for cli
 ```gh extensions install github/gh-copilot```
 
+
+Install aicommits from Kristoffer/aicommit
+---
+testing 123
