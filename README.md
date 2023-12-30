@@ -4,18 +4,19 @@ This is for remembering how to set up my environment
 ## Brew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-`brew install iproute2mac font-hack-nerd-font wireshark orbstack nmap aws-cli aws-sso-cli jq ipcalc wget yq`
+`brew install iproute2mac wireshark orbstack nmap aws-cli aws-sso-cli jq ipcalc wget yq`
+`brew install --cask font-hack-nerd-font`
 
 ```
 install :
 lunarvim
-aicommit - maybe fork it to Kristoffer/Workstation
+Kristoffer/aicommit 
 aws-sso
 gh
 iterm2
 copilot
-.bash_profile <-Kristoffer/Workstation
-.inputrc
+Kristoffer/Workstation/.bash_profile <-Kristoffer/Workstation
+Kristoffer/Workstation/.inputrc
 .ssh <- private
 codewhisperer
 shellcheck
