@@ -9,7 +9,7 @@ This is for remembering how to set up my environment
 ```
 install :
 lunarvim
-aicommit - maybe fork it to Kristoffer/Workstation
+aicommits - Kristoffer/Workstation - npm install -g test-kristoffer-aicommits
 aws-sso
 gh
 iterm2
