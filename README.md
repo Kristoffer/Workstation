@@ -4,7 +4,7 @@ This is for remembering how to set up my environment
 ## Brew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-`brew install iproute2mac wireshark orbstack nmap aws-cli aws-sso-cli jq ipcalc wget yq`
+`brew install iproute2mac wireshark orbstack nmap aws-cli aws-sso-cli jq ipcalc wget yq bash-completion`
 `brew install --cask font-hack-nerd-font`
 
 ```
