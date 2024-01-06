@@ -10,7 +10,7 @@ This is for remembering how to set up my environment
 ```
 install :
 lunarvim
-Kristoffer/aicommit 
+aicommits - Kristoffer/Workstation - npm install -g test-kristoffer-aicommits
 aws-sso
 gh
 iterm2
@@ -146,3 +146,4 @@ and again 6
 and finally
 and final final
 and finally final final done done
+triple done
