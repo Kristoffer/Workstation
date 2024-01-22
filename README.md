@@ -1,5 +1,5 @@
 # Workstation setup
-This is for remembering how to set up my environment
+Remember things
 
 ## Brew
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
