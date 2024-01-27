@@ -6,6 +6,7 @@ Remember things
 
 `brew install iproute2mac wireshark orbstack nmap aws-cli aws-sso-cli jq ipcalc wget yq bash-completion`
 `brew install --cask font-hack-nerd-font`
+`brew install bash` # add /opt/homebrew/bin/bash to /etc/shells and run `chsh -s /opt/homebrew/bin/bash`
 
 ```
 install :
@@ -54,14 +55,14 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 ```
 Update it once in a while
 ```
-:LvimUpdate 
+:LvimUpdate
 :LvimSyncCorePlugins
 ```
 Install terraform syntax highlighting and lsp
 ```
 :TSInstall hcl
 ```
-Install copilot 
+Install copilot
 ```
 git clone https://github.com/github/copilot.vim.git \
   ~/.config/nvim/pack/github/start/copilot.vim
@@ -109,7 +110,7 @@ end)
 lvim.builtin.cmp.mapping["<Tab>"] = on_tab
 ```
 
-Also install tflint to make things beautiful, and format on save, in ~/.config/lvim/config.lua      
+Also install tflint to make things beautiful, and format on save, in ~/.config/lvim/config.lua
 ```brew install tflint```
 and
 ```
@@ -130,20 +131,22 @@ Install github copilot for cli
 
 Install aicommits from Kristoffer/aicommit
 ---
-testing 123
-testing 123
-testing AI for PR
-still testing AI for PR
-Always still testing AI for PR
-Still always still testing AI for PR
-and again
-yet again
-and again 2
-and again 3
-and again 4
-and again 5
-and again 6
-and finally
-and final final
-and finally final final done done
-triple done
+
+
+## Powershell VMWare
+Install-Module -Name VMware.PowerCLI
+Connect-VIServer
+
+
+## Use pre-commit hooks
+Use pre-commit and pre-commit-terraform to enforce consistent Terraform code and documentation. This is accomplished by triggering hooks during git commit to block commits that don't pass checks (E.g. format, and module documentation).
+You can find the hooks that are being executed in the .pre-commit-config.yaml file.
+
+Install pre-commit and this repo's pre-commit hooks on a Mac machine by running the following commands:
+
+`brew install pre-commit gawk terraform-docs coreutils`
+`pre-commit install --install-hooks`
+
+Then run the following command to rebuild the docs for all Terraform components:
+
+`make rebuild-docs`
