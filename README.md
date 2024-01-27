@@ -28,12 +28,11 @@ orb
 This is using secure enclave to enable signed commits and ssh authentication
 ```
 brew install secretive   # and open it afterwards and generate a key
-git config --global user.name "bruce.willis"
-git config --global user.email "bruce.willis@jppol.dk"
+git config --global user.name "kristoffer.egefelt"
+git config --global user.email "kristoffer.egefelt@jppol.dk"
 git config --global gpg.format ssh
 git config --global commit.gpgsign true
-git config --global user.signingKey /Users/bruce.willis/something/publickey.pub
-# get the path from the secretive app
+git config --global user.signingKey /Users/kristoffer.egefelt/something/publickey.pub # get the path from the secretive app
 ```
 
 add global ssh configuration to ~/.ssh/config:
