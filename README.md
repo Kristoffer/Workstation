@@ -22,6 +22,7 @@ Kristoffer/Workstation/.inputrc
 codewhisperer
 shellcheck
 orb
+ugit
 ```
 
 # git
