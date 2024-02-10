@@ -6,7 +6,7 @@ Remember things
 
 `brew install iproute2mac wireshark orbstack nmap aws-cli aws-sso-cli jq ipcalc wget yq bash-completion`
 `brew install --cask font-hack-nerd-font`
-`brew install bash` # add /opt/homebrew/bin/bash to /etc/shells and run `chsh -s /opt/homebrew/bin/bash`
+`brew install bash` # add /opt/homebrew/bin/bash to /etc/shells and run `chsh -s /opt/homebrew/bin/bash` to use this version as loginshell
 
 ```
 install :
@@ -144,7 +144,8 @@ You can find the hooks that are being executed in the .pre-commit-config.yaml fi
 
 Install pre-commit and this repo's pre-commit hooks on a Mac machine by running the following commands:
 
-`brew install pre-commit gawk terraform-docs coreutils`
+`brew install pre-commit terraform-docs tflint tfsec trivy checkov terrascan infracost tfupdate minamijoyo/hcledit/hcledit jq` (see https://github.com/antonbabenko/pre-commit-terraform)
+`brew install gawk terraform-docs coreutils`
 `pre-commit install --install-hooks`
 
 Then run the following command to rebuild the docs for all Terraform components:
